@@ -2197,7 +2197,7 @@ def chat():
         if order_number is None:
             if message.isdigit():
                 order_number = message
-                res = "Thank youuuuuu. Please describe the issue you are facing with your order."
+                res = "Thank you. Please describe the issue you are facing with your order."
             else:
                 res = "You entered an invalid order number. Please provide a valid numeric order number."
         else:

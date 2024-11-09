@@ -101,7 +101,13 @@
       },
       {
         "tag": "order_related_issues",
-        "patterns": ["order related issues", "order issues", "order problem"],
+        "patterns": [
+          "Report issue",
+          "Problem with",
+          "Help with my issue ",
+          "related issue",
+          "Issue with recent"
+        ],
         "responses": [
           "You have selected 'Order-related issues'. Please provide your order number for us to assist you better."
         ]
@@ -123,6 +129,19 @@
         ],
         "responses": [
           "Please provide your location so we can find the nearest store for you. Enter your address or area name below:"
+        ]
+      },
+      {
+        "tag": "track_current_order",
+        "patterns": [
+          "Where is my order?",
+          "Track my order",
+          "Order status",
+          "Track current order",
+          "Check my order"
+        ],
+        "responses": [
+          "Please provide your phone number to start tracking your order."
         ]
       },    
       {
@@ -211,7 +230,14 @@
       },
       {
         "tag": "Corn and Spinach Parcel",
-        "patterns": ["Corn and Spinach Parcel"],
+        "patterns": [
+          "Corn and Spinach Parcel",
+          "Spinach and Corn Parcel",
+          "Corn Spinach Parcel",
+          "Parcel with Corn and Spinach",
+          "I want Corn Spinach Parcel",
+          "Spinach Corn puff"
+        ],
         "responses": [
           "Corn & Spinach Parcel features parcel-shaped puff pastry with spinach and shelled corn fillings, delivering a burst of cheese in every bite."
         ]
@@ -358,7 +384,14 @@
       },
       {
         "tag": "American Mushroom and Onion BBQ",
-        "patterns": ["American Mushroom and Onion BBQ"],
+        "patterns": [
+          "American Mushroom and Onion BBQ",
+          "BBQ Mushroom and Onion",
+          "Mushroom Onion BBQ pizza",
+          "BBQ with Mushrooms and Onions",
+          "American BBQ Mushroom",
+          "BBQ Mushroom Onion"
+        ],
         "responses": [
           "American Mushroom & Onion BBQ features a premium Italian sourdough base topped with pizza sauce, melty mozzarella cheese, savory mushrooms, onions, a drizzle of smoky BBQ sauce, and a sprinkle of herbs for a savory and sweet fusion."
         ]
@@ -604,17 +637,6 @@
         ]
       },
       {
-        "tag": "order_status",
-        "patterns": [
-          "Where is my order?",
-          "Track my order",
-          "Order status"
-        ],
-        "responses": [
-          "Please provide your order number to track the status."
-        ]
-      },
-      {
         "tag": "goodbye",
         "patterns": [
           "Bye",
@@ -669,7 +691,7 @@
           "Delivery delay"
         ],
         "responses": [
-          "We apologize for any delays. If your delivery is late, please contact our support for assistance and compensation."
+          "We apologize for any delays. If your delivery is late, please contact our support team for assistance."
         ]
       },
       {
@@ -714,17 +736,6 @@
         ],
         "responses": [
           "You can delete your account by contacting our support team at info@fastapizza.com."
-        ]
-      },
-      {
-        "tag": "loyalty_points",
-        "patterns": [
-          "How do I check my loyalty points?",
-          "Loyalty points balance",
-          "Reward points"
-        ],
-        "responses": [
-          "You can check your loyalty points balance by logging into your account and going to the 'Loyalty Points' section."
         ]
       }
     ]
